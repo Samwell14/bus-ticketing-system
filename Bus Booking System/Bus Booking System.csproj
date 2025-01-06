@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D815426-8EEB-485B-B5C2-E5C15A99D58A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bus_Booking_System</RootNamespace>
+    <AssemblyName>Bus Booking System</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusBookingSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusBookingSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BusBookingSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusBookingSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorCancellationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorCancellationForm.Designer.cs">
+      <DependentUpon>ErrorCancellationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CancelConfirmationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CancelConfirmationForm.Designer.cs">
+      <DependentUpon>CancelConfirmationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfirmTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfirmTicket.Designer.cs">
+      <DependentUpon>ConfirmTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HelpInstr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\HelpInstr.Designer.cs">
+      <DependentUpon>HelpInstr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StartingPage.Designer.cs">
+      <DependentUpon>StartingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket.cs" />
+    <Compile Include="Forms\User Controls\Bus.cs" />
+    <Compile Include="Forms\User Controls\ChangeDestination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\ChangeDestination.Designer.cs">
+      <DependentUpon>ChangeDestination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Controls\Booking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Dashboard.Designer.cs">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Controls\BusManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\BusManagement.Designer.cs">
+      <DependentUpon>BusManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Controls\Cancellation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\Cancellation.Designer.cs">
+      <DependentUpon>Cancellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Controls\REGISTRATIONFINALFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\REGISTRATIONFINALFORM.Designer.cs">
+      <DependentUpon>REGISTRATIONFINALFORM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User Controls\Reserver.cs" />
+    <Compile Include="Forms\User Controls\RouteDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\User Controls\RouteDetails.Designer.cs">
+      <DependentUpon>RouteDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncorrectNamePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncorrectNamePassword.Designer.cs">
+      <DependentUpon>IncorrectNamePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt.Designer.cs">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs" />
+    <Compile Include="SomethingMissing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SomethingMissing.Designer.cs">
+      <DependentUpon>SomethingMissing.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ErrorCancellationForm.resx">
+      <DependentUpon>ErrorCancellationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CancelConfirmationForm.resx">
+      <DependentUpon>CancelConfirmationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmTicket.resx">
+      <DependentUpon>ConfirmTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HelpInstr.resx">
+      <DependentUpon>HelpInstr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StartingPage.resx">
+      <DependentUpon>StartingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\ChangeDestination.resx">
+      <DependentUpon>ChangeDestination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Dashboard.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\BusManagement.resx">
+      <DependentUpon>BusManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\Cancellation.resx">
+      <DependentUpon>Cancellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\REGISTRATIONFINALFORM.resx">
+      <DependentUpon>REGISTRATIONFINALFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User Controls\RouteDetails.resx">
+      <DependentUpon>RouteDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncorrectNamePassword.resx">
+      <DependentUpon>IncorrectNamePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentReceipt.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Receipt.resx">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SomethingMissing.resx">
+      <DependentUpon>SomethingMissing.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BusBookingSystemDataSet.xsc">
+      <DependentUpon>BusBookingSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BusBookingSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BusBookingSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BusBookingSystemDataSet.xss">
+      <DependentUpon>BusBookingSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BusBookingSystemDataSet1.xsc">
+      <DependentUpon>BusBookingSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BusBookingSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BusBookingSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BusBookingSystemDataSet1.xss">
+      <DependentUpon>BusBookingSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55592c2191f05_thumb900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_username_login_1172579.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\,.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mat &amp; Canvas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mat &amp; Canvas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
