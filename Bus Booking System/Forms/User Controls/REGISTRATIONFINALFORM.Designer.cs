@@ -1,4 +1,7 @@
-﻿namespace Bus_Booking_System
+﻿
+
+
+namespace Bus_Booking_System
 {
     partial class REGISTERFINALFORM
     {

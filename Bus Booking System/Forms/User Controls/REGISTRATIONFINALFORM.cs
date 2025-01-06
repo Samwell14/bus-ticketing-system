@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -61,33 +62,30 @@ namespace Bus_Booking_System
 
         private void RegistrationSuccessfulbutton_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(RegistrationCityTextBox.Text) || string.IsNullOrEmpty(RegistrationCNICTextbox.Text) || string.IsNullOrEmpty(RegistrationFathersNameTextbox.Text) ||
-                  string.IsNullOrEmpty(RegistrationGenderTextbox.Text) || string.IsNullOrEmpty(RegistrationNameTextbox.Text) || string.IsNullOrEmpty(RegistrationPasswordTextbox.Text))
+            string name = RegistrationNameTextbox.Text;
+            string fatherName = RegistrationFathersNameTextbox.Text;
+            decimal cnic = decimal.Parse(RegistrationCNICTextbox.Text);
+            string gender = RegistrationGenderTextbox.Text;
+            string password = RegistrationPasswordTextbox.Text;
+            string city = RegistrationCityTextBox.Text;
+
+            
+            if (!decimal.TryParse(RegistrationCNICTextbox.Text, out cnic))
             {
-                SomethingMissing s = new SomethingMissing();
-                s.ShowDialog();
+                MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
+                return;
+            }
+
+            DatabaseHelper dbHelper = new DatabaseHelper();
+            bool success = dbHelper.RegisterUser(name, fatherName, cnic, gender, password, city);
+
+            if (success)
+            {
+                MessageBox.Show("Registration successful!");
             }
             else
-               
             {
-                Registration R = new Registration(RegistrationNameTextbox.Text, RegistrationFathersNameTextbox.Text, Convert.ToDecimal(RegistrationCNICTextbox.Text), RegistrationGenderTextbox.Text, RegistrationPasswordTextbox.Text, RegistrationCityTextBox.Text);
-                if (Sql.State == ConnectionState.Closed)
-                {
-                    Sql.Open();
-                }
-                SqlCommand s = new SqlCommand("Insert into Registration values('" + R.NAME + "','" + R.FATHERNAME + "','" + R.Cnic + "','" + R.CITY + "','" + R.PASSWORD + "','" + R.GENDER + "')", Sql);
-                s.ExecuteNonQuery();
-                StartingPage st = new StartingPage();
-                st.ShowDialog();
-                //RegistrationCityTextBox.Text = "";
-                //RegistrationCNICTextbox.Text = "";
-                //RegistrationFathersNameTextbox.Text = "";
-                //RegistrationGenderTextbox.Text = "";
-                //RegistrationNameTextbox.Text = "";
-                //RegistrationPasswordTextbox.Text = "";
-                
-                
-              
+                MessageBox.Show("Registration failed. Please try again.");
             }
         }
 

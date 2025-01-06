@@ -25,20 +25,23 @@ namespace Bus_Booking_System.Forms
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void RegisterStartButton_click(object sender, EventArgs e)
         {
             REGISTERFINALFORM r = new REGISTERFINALFORM();
             r.ShowDialog();
-    
-
-
-
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //timer1.Start();
+            REGISTERFINALFORM r = new REGISTERFINALFORM();
+            r.ShowDialog();
         }
 
         private void StartingPage_Load(object sender, EventArgs e)
