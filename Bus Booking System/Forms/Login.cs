@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,7 @@ namespace Bus_Booking_System
         {
 
         }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -43,6 +45,32 @@ namespace Bus_Booking_System
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            decimal cnic;
+            if (!decimal.TryParse(LoginUserNametextBox.Text, out cnic))
+            {
+                MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
+                return;
+            }
+
+            string password = LoginPasswordtextBox.Text;
+
+            DatabaseHelper dbHelper = new DatabaseHelper();
+            bool isAuthenticated = dbHelper.AuthenticateUser(cnic, password);
+
+            if (isAuthenticated)
+            {
+                MessageBox.Show("Login successful!");
+                new Form_Dashboard().ShowDialog();
+                // Proceed to the next form or main application window
+            }
+            else
+            {
+                MessageBox.Show("Login failed. Invalid CNIC or password.");
+            }
+        }
+
+        /* private void button1_Click(object sender, EventArgs e)
 
         {
             if(Sql.State==ConnectionState.Closed)
@@ -72,7 +100,7 @@ namespace Bus_Booking_System
                 n.ShowDialog();
             }
             
-        }
+        } */
 
         private void Form1_Load(object sender, EventArgs e)
         {

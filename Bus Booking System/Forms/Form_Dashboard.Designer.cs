@@ -2,6 +2,7 @@
 {
     partial class Form_Dashboard
     {
+       //public static System.Windows.Forms.Label label5 = new System.Windows.Forms.Label();
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -31,31 +32,31 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Dashboard));
             this.PanelLeft = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.HelpInstrurctions = new System.Windows.Forms.Button();
+            this.RouteDetailsButton = new System.Windows.Forms.Button();
+            this.BookingDetailsButton = new System.Windows.Forms.Button();
+            this.CancellationButton = new System.Windows.Forms.Button();
             this.PanelSide = new System.Windows.Forms.Panel();
+            this.BusMangbtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.labelTime = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2Time = new System.Windows.Forms.Timer(this.components);
             this.panelControls1 = new System.Windows.Forms.Panel();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.HelpInstrurctions = new System.Windows.Forms.Button();
-            this.RouteDetailsButton = new System.Windows.Forms.Button();
-            this.BookingDetailsButton = new System.Windows.Forms.Button();
-            this.CancellationButton = new System.Windows.Forms.Button();
-            this.BusMangbtn = new System.Windows.Forms.Button();
             this.PanelLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelLeft
@@ -74,166 +75,6 @@
             this.PanelLeft.Size = new System.Drawing.Size(218, 720);
             this.PanelLeft.TabIndex = 0;
             this.PanelLeft.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelLeft_Paint);
-            // 
-            // PanelSide
-            // 
-            this.PanelSide.BackColor = System.Drawing.Color.White;
-            this.PanelSide.ForeColor = System.Drawing.Color.White;
-            this.PanelSide.Location = new System.Drawing.Point(3, 139);
-            this.PanelSide.Name = "PanelSide";
-            this.PanelSide.Size = new System.Drawing.Size(10, 63);
-            this.PanelSide.TabIndex = 3;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button7);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(218, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(982, 45);
-            this.panel3.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.label4.Location = new System.Drawing.Point(66, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(338, 28);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Bus Booking System,Karachi";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.panel4.Controls.Add(this.labelTime);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(218, 45);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(982, 100);
-            this.panel4.TabIndex = 2;
-            // 
-            // labelTime
-            // 
-            this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTime.AutoSize = true;
-            this.labelTime.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTime.ForeColor = System.Drawing.Color.White;
-            this.labelTime.Location = new System.Drawing.Point(874, 34);
-            this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(79, 19);
-            this.labelTime.TabIndex = 7;
-            this.labelTime.Text = "HH:MM:ss";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(112, 55);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 19);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Developer";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(149, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 19);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Salman";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(56, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 19);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Role :";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(56, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 19);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Welcome :";
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 1;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // timer2Time
-            // 
-            this.timer2Time.Tick += new System.EventHandler(this.timer2Time_Tick);
-            // 
-            // panelControls1
-            // 
-            this.panelControls1.BackColor = System.Drawing.Color.White;
-            this.panelControls1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControls1.Location = new System.Drawing.Point(218, 145);
-            this.panelControls1.Name = "panelControls1";
-            this.panelControls1.Size = new System.Drawing.Size(982, 575);
-            this.panelControls1.TabIndex = 3;
-            this.panelControls1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControls1_Paint);
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, -9);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(40, 54);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "     ";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button7.Location = new System.Drawing.Point(937, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(42, 39);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "     ";
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // pictureBox1
             // 
@@ -314,6 +155,15 @@
             this.CancellationButton.UseVisualStyleBackColor = true;
             this.CancellationButton.Click += new System.EventHandler(this.CancellationButton_Click);
             // 
+            // PanelSide
+            // 
+            this.PanelSide.BackColor = System.Drawing.Color.White;
+            this.PanelSide.ForeColor = System.Drawing.Color.White;
+            this.PanelSide.Location = new System.Drawing.Point(3, 139);
+            this.PanelSide.Name = "PanelSide";
+            this.PanelSide.Size = new System.Drawing.Size(10, 63);
+            this.PanelSide.TabIndex = 3;
+            // 
             // BusMangbtn
             // 
             this.BusMangbtn.FlatAppearance.BorderSize = 0;
@@ -331,6 +181,158 @@
             this.BusMangbtn.UseVisualStyleBackColor = true;
             this.BusMangbtn.Click += new System.EventHandler(this.BusMangbtn_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.button6);
+            this.panel3.Controls.Add(this.button7);
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(218, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(982, 45);
+            this.panel3.TabIndex = 1;
+            // 
+            // button6
+            // 
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, -9);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(40, 54);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "     ";
+            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button7.Location = new System.Drawing.Point(937, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(42, 39);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "     ";
+            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
+            this.label4.Location = new System.Drawing.Point(66, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(421, 37);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Bus Booking System,Karachi";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
+            this.panel4.Controls.Add(this.labelTime);
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(218, 45);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(982, 100);
+            this.panel4.TabIndex = 2;
+            // 
+            // labelTime
+            // 
+            this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTime.AutoSize = true;
+            this.labelTime.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.ForeColor = System.Drawing.Color.White;
+            this.labelTime.Location = new System.Drawing.Point(874, 34);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(104, 23);
+            this.labelTime.TabIndex = 7;
+            this.labelTime.Text = "HH:MM:ss";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(112, 55);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(111, 23);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Developer";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(149, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 23);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "again";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(56, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 23);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Role :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(27, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(116, 23);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Welcome :";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2Time
+            // 
+            this.timer2Time.Tick += new System.EventHandler(this.timer2Time_Tick);
+            // 
+            // panelControls1
+            // 
+            this.panelControls1.BackColor = System.Drawing.Color.White;
+            this.panelControls1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControls1.Location = new System.Drawing.Point(218, 145);
+            this.panelControls1.Name = "panelControls1";
+            this.panelControls1.Size = new System.Drawing.Size(982, 575);
+            this.panelControls1.TabIndex = 3;
+            this.panelControls1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControls1_Paint);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // Form_Dashboard
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -345,11 +347,11 @@
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form_Dashboard_Load);
             this.PanelLeft.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -1,5 +1,6 @@
 ﻿using Bus_Booking_System.Forms;
 using Bus_Booking_System.Forms.User_Controls;
+using Bus_Booking_System;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,19 +16,22 @@ namespace Bus_Booking_System
 {
     public partial class Form_Dashboard : Form
     {
-        public static string connectionString = @"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True";
+        //public static string connectionString = @"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True";
         int PanelWidth;
         bool isCollapsed;
-        SqlConnection Sql = new SqlConnection(connectionString);
-        SqlDataAdapter apt = new SqlDataAdapter();
+        //SqlConnection Sql = new SqlConnection(connectionString);
+        //SqlDataAdapter apt = new SqlDataAdapter();
         DataTable table = new DataTable();
 
         public Form_Dashboard()
         {
             InitializeComponent();
             timer2Time.Start();
-            PanelWidth = PanelLeft.Width;
+           
             isCollapsed = false;
+            PanelWidth = PanelLeft.Width;
+            
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -202,6 +206,11 @@ namespace Bus_Booking_System
             //{
             //    this.WindowState = FormWindowState.Normal;
             //}
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

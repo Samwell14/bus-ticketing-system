@@ -85,7 +85,7 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(124, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(263, 28);
+            this.label8.Size = new System.Drawing.Size(337, 37);
             this.label8.TabIndex = 12;
             this.label8.Text = "BUS BOOKING SYSTEM";
             // 
@@ -122,9 +122,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(324, 376);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 19);
+            this.label1.Size = new System.Drawing.Size(147, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "User Name";
+            this.label1.Text = "CNIC Number";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
@@ -135,7 +135,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label3.Location = new System.Drawing.Point(493, 314);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 28);
+            this.label3.Size = new System.Drawing.Size(258, 37);
             this.label3.TabIndex = 4;
             this.label3.Text = "Please Login First";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -146,7 +146,7 @@
             this.LoginUserNametextBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginUserNametextBox.Location = new System.Drawing.Point(328, 400);
             this.LoginUserNametextBox.Name = "LoginUserNametextBox";
-            this.LoginUserNametextBox.Size = new System.Drawing.Size(550, 31);
+            this.LoginUserNametextBox.Size = new System.Drawing.Size(550, 37);
             this.LoginUserNametextBox.TabIndex = 5;
             // 
             // LoginPasswordtextBox
@@ -155,7 +155,7 @@
             this.LoginPasswordtextBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginPasswordtextBox.Location = new System.Drawing.Point(328, 476);
             this.LoginPasswordtextBox.Name = "LoginPasswordtextBox";
-            this.LoginPasswordtextBox.Size = new System.Drawing.Size(550, 31);
+            this.LoginPasswordtextBox.Size = new System.Drawing.Size(550, 37);
             this.LoginPasswordtextBox.TabIndex = 7;
             this.LoginPasswordtextBox.UseSystemPasswordChar = true;
             // 
@@ -167,7 +167,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label4.Location = new System.Drawing.Point(324, 452);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 19);
+            this.label4.Size = new System.Drawing.Size(100, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Password";
             // 
@@ -194,7 +194,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label5.Location = new System.Drawing.Point(466, 520);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(141, 19);
+            this.label5.Size = new System.Drawing.Size(178, 23);
             this.label5.TabIndex = 9;
             this.label5.Text = "Forgot Password?";
             // 
@@ -206,7 +206,7 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label6.Location = new System.Drawing.Point(12, 690);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(411, 21);
+            this.label6.Size = new System.Drawing.Size(516, 23);
             this.label6.TabIndex = 29;
             this.label6.Text = "All Rights Reserved by Muhammad Salman Siddiqui.";
             // 

@@ -3,48 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\forms\\form_dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\form_dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\confirmticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\confirmticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\registrationfinalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\registrationfinalform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\registrationfinalform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\somethingmissing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\somethingmissing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\errorcancellationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\errorcancellationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\changedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\changedestination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|c:\\users\\betis\\desktop\\c# demos\\proj 3\\bus booking system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\cancellation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\cancellation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\busmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\busmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\user controls\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\user controls\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\errorcancellationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\errorcancellationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\cancelconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\cancelconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\somethingmissing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\somethingmissing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\startingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -57,26 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\incorrectnamepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\incorrectnamepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\cancelconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\cancelconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\confirmticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\confirmticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D815426-8EEB-485B-B5C2-E5C15A99D58A}|Bus Booking System\\Bus Booking System.csproj|solutionrelative:bus booking system\\forms\\form_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,112 +122,207 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SomethingMissing.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\SomethingMissing.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\SomethingMissing.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\SomethingMissing.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\SomethingMissing.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Form_Dashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.Designer.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Form_Dashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.Designer.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Form_Dashboard.Designer.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAYwHUBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:29:50.285Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-07T06:58:15.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.Designer.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:47:03.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfirmTicket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\ConfirmTicket.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\ConfirmTicket.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\ConfirmTicket.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\ConfirmTicket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:45:37.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "REGISTRATIONFINALFORM.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
-              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwKQAAAAhAAAAAAAAAA==",
+              "Title": "Form_Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Form_Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:00:38.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T12:34:56.061Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Registration.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Registration.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Registration.cs",
-              "RelativeToolTip": "Bus Booking System\\Registration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Login.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwD8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:35:28.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T14:41:08.106Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form_Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Form_Dashboard.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:54:08.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "REGISTRATIONFINALFORM.cs [Design]",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
               "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs [Design]",
               "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:57:16.802Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-06T12:57:16.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:34:43.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\DatabaseHelper.cs",
+              "RelativeToolTip": "Bus Booking System\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:46:14.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "REGISTRATIONFINALFORM.cs",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
               "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
               "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAowEcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwEUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:57:25.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\packages.config",
-              "RelativeDocumentMoniker": "Bus Booking System\\packages.config",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\packages.config",
-              "RelativeToolTip": "Bus Booking System\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-01-06T13:29:28.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorCancellationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\ErrorCancellationForm.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\ErrorCancellationForm.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\ErrorCancellationForm.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\ErrorCancellationForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:29:21.557Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StartingPage.cs",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\StartingPage.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
-              "RelativeToolTip": "Bus Booking System\\Forms\\StartingPage.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAlwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:07:20.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T12:57:25.373Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "REGISTRATIONFINALFORM.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\REGISTRATIONFINALFORM.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:00:38.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartingPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\StartingPage.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\StartingPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:34:48.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangeDestination.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\ChangeDestination.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\ChangeDestination.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\ChangeDestination.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\ChangeDestination.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:31:07.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cancellation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Cancellation.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\Cancellation.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Cancellation.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\Cancellation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:31:03.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BusManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\BusManagement.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\BusManagement.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\BusManagement.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\BusManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:30:57.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Bus.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\Bus.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Bus.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\Bus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:28:34.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Booking.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Booking.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\User Controls\\Booking.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\User Controls\\Booking.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\User Controls\\Booking.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:28:37.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Payment.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\Payment.cs",
@@ -199,33 +330,41 @@
               "RelativeToolTip": "Bus Booking System\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:54:32.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T12:54:32.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StartingPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\StartingPage.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Forms\\StartingPage.cs [Design]",
+              "DocumentIndex": 18,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Registration.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Registration.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Registration.cs",
+              "RelativeToolTip": "Bus Booking System\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:34:48.624Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-06T12:35:28.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\DatabaseHelper.cs",
-              "RelativeToolTip": "Bus Booking System\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ErrorCancellationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\ErrorCancellationForm.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\ErrorCancellationForm.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\ErrorCancellationForm.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\ErrorCancellationForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:46:14.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T13:29:21.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Form1.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Form1.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Form1.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:35:15.773Z"
             },
             {
               "$type": "Bookmark",
@@ -233,7 +372,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
+              "Title": "CancelConfirmationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\CancelConfirmationForm.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\CancelConfirmationForm.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\CancelConfirmationForm.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\Forms\\CancelConfirmationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T12:35:02.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\packages.config",
+              "RelativeDocumentMoniker": "Bus Booking System\\packages.config",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\packages.config",
+              "RelativeToolTip": "Bus Booking System\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-06T14:22:15.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SomethingMissing.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\SomethingMissing.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\SomethingMissing.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\SomethingMissing.cs [Design]",
+              "RelativeToolTip": "Bus Booking System\\SomethingMissing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:29:50.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartingPage.cs",
+              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
+              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\StartingPage.cs",
+              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\StartingPage.cs",
+              "RelativeToolTip": "Bus Booking System\\Forms\\StartingPage.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:07:20.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Program.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\Program.cs",
@@ -245,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "Receipt.cs [Design]",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Receipt.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\Receipt.cs",
@@ -256,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "IncorrectNamePassword.cs [Design]",
               "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\IncorrectNamePassword.cs",
               "RelativeDocumentMoniker": "Bus Booking System\\IncorrectNamePassword.cs",
@@ -264,61 +449,6 @@
               "RelativeToolTip": "Bus Booking System\\IncorrectNamePassword.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T12:35:18.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Form1.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Form1.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Form1.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:35:15.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:34:43.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CancelConfirmationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\CancelConfirmationForm.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\CancelConfirmationForm.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\CancelConfirmationForm.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Forms\\CancelConfirmationForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:35:02.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ConfirmTicket.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\ConfirmTicket.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\ConfirmTicket.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\ConfirmTicket.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Forms\\ConfirmTicket.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:34:59.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Form_Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs",
-              "RelativeDocumentMoniker": "Bus Booking System\\Forms\\Form_Dashboard.cs",
-              "ToolTip": "C:\\Users\\betis\\Desktop\\C# Demos\\proj 3\\Bus Booking System\\Forms\\Form_Dashboard.cs [Design]",
-              "RelativeToolTip": "Bus Booking System\\Forms\\Form_Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T12:34:56.061Z"
             }
           ]
         }

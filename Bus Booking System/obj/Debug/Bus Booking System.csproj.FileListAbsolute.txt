@@ -92,3 +92,6 @@ C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\obj\Debug\Bus Book.A8F
 C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\obj\Debug\Bus Booking System.exe
 C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\obj\Debug\Bus Booking System.pdb
 C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\bin\Debug\MySql.Data.dll
+C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\bin\Debug\Google.Protobuf.dll
+C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\bin\Debug\Google.Protobuf.xml
+C:\Users\betis\Desktop\C# Demos\proj 3\Bus Booking System\bin\Debug\MySql.Data.xml

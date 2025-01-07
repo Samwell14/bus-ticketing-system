@@ -22,7 +22,7 @@ namespace Bus_Booking_System
         SqlConnection Sql = new SqlConnection(@"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True");
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -64,10 +64,11 @@ namespace Bus_Booking_System
         {
             string name = RegistrationNameTextbox.Text;
             string fatherName = RegistrationFathersNameTextbox.Text;
-            decimal cnic = decimal.Parse(RegistrationCNICTextbox.Text);
+            //decimal cnic = decimal.Parse(RegistrationCNICTextbox.Text);
             string gender = RegistrationGenderTextbox.Text;
             string password = RegistrationPasswordTextbox.Text;
             string city = RegistrationCityTextBox.Text;
+            decimal cnic;
 
             
             if (!decimal.TryParse(RegistrationCNICTextbox.Text, out cnic))

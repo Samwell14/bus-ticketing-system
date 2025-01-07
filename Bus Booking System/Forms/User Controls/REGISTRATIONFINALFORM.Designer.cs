@@ -4,8 +4,11 @@
 namespace Bus_Booking_System
 {
     partial class REGISTERFINALFORM
+
+
     {
-        /// <summary>
+        // public static System.Windows.Forms.TextBox RegistrationNameTextbox;
+        //public System.Windows.Forms.TextBox RegistrationNameTextbox;
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
@@ -29,7 +32,7 @@ namespace Bus_Booking_System
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(REGISTERFINALFORM));
@@ -70,7 +73,7 @@ namespace Bus_Booking_System
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label9.Location = new System.Drawing.Point(608, 341);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 19);
+            this.label9.Size = new System.Drawing.Size(49, 23);
             this.label9.TabIndex = 43;
             this.label9.Text = "City";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -81,7 +84,7 @@ namespace Bus_Booking_System
             this.RegistrationPasswordTextbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationPasswordTextbox.Location = new System.Drawing.Point(612, 497);
             this.RegistrationPasswordTextbox.Name = "RegistrationPasswordTextbox";
-            this.RegistrationPasswordTextbox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationPasswordTextbox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationPasswordTextbox.TabIndex = 42;
             this.RegistrationPasswordTextbox.UseSystemPasswordChar = true;
             this.RegistrationPasswordTextbox.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
@@ -92,7 +95,7 @@ namespace Bus_Booking_System
             this.RegistrationGenderTextbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationGenderTextbox.Location = new System.Drawing.Point(612, 429);
             this.RegistrationGenderTextbox.Name = "RegistrationGenderTextbox";
-            this.RegistrationGenderTextbox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationGenderTextbox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationGenderTextbox.TabIndex = 41;
             this.RegistrationGenderTextbox.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
@@ -102,7 +105,7 @@ namespace Bus_Booking_System
             this.RegistrationCityTextBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationCityTextBox.Location = new System.Drawing.Point(612, 363);
             this.RegistrationCityTextBox.Name = "RegistrationCityTextBox";
-            this.RegistrationCityTextBox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationCityTextBox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationCityTextBox.TabIndex = 40;
             this.RegistrationCityTextBox.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -113,7 +116,7 @@ namespace Bus_Booking_System
             this.RegistrationCNICTextbox.Location = new System.Drawing.Point(101, 497);
             this.RegistrationCNICTextbox.MaxLength = 13;
             this.RegistrationCNICTextbox.Name = "RegistrationCNICTextbox";
-            this.RegistrationCNICTextbox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationCNICTextbox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationCNICTextbox.TabIndex = 39;
             this.RegistrationCNICTextbox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -123,7 +126,7 @@ namespace Bus_Booking_System
             this.RegistrationFathersNameTextbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationFathersNameTextbox.Location = new System.Drawing.Point(101, 429);
             this.RegistrationFathersNameTextbox.Name = "RegistrationFathersNameTextbox";
-            this.RegistrationFathersNameTextbox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationFathersNameTextbox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationFathersNameTextbox.TabIndex = 38;
             this.RegistrationFathersNameTextbox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -133,7 +136,7 @@ namespace Bus_Booking_System
             this.RegistrationNameTextbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationNameTextbox.Location = new System.Drawing.Point(101, 363);
             this.RegistrationNameTextbox.Name = "RegistrationNameTextbox";
-            this.RegistrationNameTextbox.Size = new System.Drawing.Size(482, 31);
+            this.RegistrationNameTextbox.Size = new System.Drawing.Size(482, 37);
             this.RegistrationNameTextbox.TabIndex = 37;
             this.RegistrationNameTextbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -162,7 +165,7 @@ namespace Bus_Booking_System
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label7.Location = new System.Drawing.Point(608, 475);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 19);
+            this.label7.Size = new System.Drawing.Size(100, 23);
             this.label7.TabIndex = 35;
             this.label7.Text = "Password";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -176,7 +179,7 @@ namespace Bus_Booking_System
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label6.Location = new System.Drawing.Point(608, 407);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 19);
+            this.label6.Size = new System.Drawing.Size(84, 23);
             this.label6.TabIndex = 34;
             this.label6.Text = "Gender";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -190,7 +193,7 @@ namespace Bus_Booking_System
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label5.Location = new System.Drawing.Point(227, 428);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 19);
+            this.label5.Size = new System.Drawing.Size(49, 23);
             this.label5.TabIndex = 33;
             this.label5.Text = "City";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -204,7 +207,7 @@ namespace Bus_Booking_System
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label2.Location = new System.Drawing.Point(97, 475);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 19);
+            this.label2.Size = new System.Drawing.Size(69, 23);
             this.label2.TabIndex = 32;
             this.label2.Text = "CINIC";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -218,7 +221,7 @@ namespace Bus_Booking_System
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label4.Location = new System.Drawing.Point(97, 407);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 19);
+            this.label4.Size = new System.Drawing.Size(145, 23);
             this.label4.TabIndex = 31;
             this.label4.Text = "Fathers Name";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -232,7 +235,7 @@ namespace Bus_Booking_System
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(97, 341);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 19);
+            this.label1.Size = new System.Drawing.Size(70, 23);
             this.label1.TabIndex = 30;
             this.label1.Text = "Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -245,7 +248,7 @@ namespace Bus_Booking_System
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label3.Location = new System.Drawing.Point(477, 288);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 41);
+            this.label3.Size = new System.Drawing.Size(269, 51);
             this.label3.TabIndex = 45;
             this.label3.Text = "Registration";
             // 
@@ -284,7 +287,7 @@ namespace Bus_Booking_System
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(127, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(263, 28);
+            this.label8.Size = new System.Drawing.Size(337, 37);
             this.label8.TabIndex = 12;
             this.label8.Text = "BUS BOOKING SYSTEM";
             // 
@@ -321,13 +324,13 @@ namespace Bus_Booking_System
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label10.Location = new System.Drawing.Point(12, 651);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(411, 21);
+            this.label10.Size = new System.Drawing.Size(199, 23);
             this.label10.TabIndex = 47;
-            this.label10.Text = "All Rights Reserved by Muhammad Salman Siddiqui.";
+            this.label10.Text = "All Rights Reserved.";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources.LOGO;
+            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources._55592c2191f05_thumb900;
             this.pictureBox2.Location = new System.Drawing.Point(538, 66);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(271, 219);
@@ -383,7 +386,7 @@ namespace Bus_Booking_System
         private System.Windows.Forms.TextBox RegistrationCityTextBox;
         private System.Windows.Forms.TextBox RegistrationCNICTextbox;
         private System.Windows.Forms.TextBox RegistrationFathersNameTextbox;
-        private System.Windows.Forms.TextBox RegistrationNameTextbox;
+        
         private System.Windows.Forms.Button RegistrationSuccessfulbutton;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -400,5 +403,6 @@ namespace Bus_Booking_System
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
+        public System.Windows.Forms.TextBox RegistrationNameTextbox;
     }
 }
