@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bus_Booking_System.Forms
@@ -21,7 +14,7 @@ namespace Bus_Booking_System.Forms
         {
             Login d = new Login();
             d.ShowDialog();
-          
+
 
         }
 
@@ -65,7 +58,7 @@ namespace Bus_Booking_System.Forms
 
         private void button8_Click(object sender, EventArgs e)
         {
-           
+
         }
     }
 }

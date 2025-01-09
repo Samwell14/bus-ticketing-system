@@ -1,26 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bus_Booking_System.Forms.User_Controls
 {
     public partial class BusManagement : UserControl
     {
-        public static string connectionString = @"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True";
+        public static string connectionString = "server=localhost;database=bus_ticketing_system;user=root;password=Samii@122";
+
+
         public BusManagement()
         {
             InitializeComponent();
         }
-        SqlConnection Sql = new SqlConnection(connectionString);
-        SqlDataAdapter apt = new SqlDataAdapter();
+
+        MySqlConnection Sql = new MySqlConnection(connectionString);
+        MySqlDataAdapter apt = new MySqlDataAdapter();
         DataTable table = new DataTable();
+
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
@@ -30,15 +28,17 @@ namespace Bus_Booking_System.Forms.User_Controls
         {
             ChangeDestination cd = new ChangeDestination();
             cd.ShowDialog();
-            
-            
-            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void BusManagementdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             {
-               
+
             }
         }
 
@@ -49,13 +49,22 @@ namespace Bus_Booking_System.Forms.User_Controls
                 Sql.Open();
             }
 
-            SqlCommand s = new SqlCommand("Select * from Booking", Sql);
-            table.Clear();
-            apt.SelectCommand = s;
-            apt.Fill(table);
-            //SqlDataReader dataread = s.ExecuteReader();
-            //dataread.Read();
-            BusManagementdataGridView.DataSource = table;
+            try
+            {
+                MySqlCommand s = new MySqlCommand("SELECT * FROM Ticket", Sql);
+                table.Clear();
+                apt.SelectCommand = s;
+                apt.Fill(table);
+                BusManagementdataGridView.DataSource = table;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
+            finally
+            {
+                Sql.Close();
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -64,14 +73,10 @@ namespace Bus_Booking_System.Forms.User_Controls
             {
                 (BusManagementdataGridView.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '{0}%'", textBox1.Text);
             }
-            else if(comboBox1.Text=="CNIC")
+            else if (comboBox1.Text == "CNIC")
             {
                 (BusManagementdataGridView.DataSource as DataTable).DefaultView.RowFilter = string.Format("CNIC LIKE '{0}%'", textBox1.Text);
             }
         }
     }
- }
-    
-
-
- 
+}

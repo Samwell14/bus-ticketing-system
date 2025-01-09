@@ -1,14 +1,5 @@
-﻿using Bus_Booking_System.Forms;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Data.SqlClient;
-using MySql.Data.MySqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bus_Booking_System
@@ -22,7 +13,7 @@ namespace Bus_Booking_System
         SqlConnection Sql = new SqlConnection(@"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True");
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -65,12 +56,12 @@ namespace Bus_Booking_System
             string name = RegistrationNameTextbox.Text;
             string fatherName = RegistrationFathersNameTextbox.Text;
             //decimal cnic = decimal.Parse(RegistrationCNICTextbox.Text);
-            string gender = RegistrationGenderTextbox.Text;
+            string gender = comboBox1.SelectedItem.ToString();
             string password = RegistrationPasswordTextbox.Text;
             string city = RegistrationCityTextBox.Text;
             decimal cnic;
 
-            
+
             if (!decimal.TryParse(RegistrationCNICTextbox.Text, out cnic))
             {
                 MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
@@ -147,6 +138,11 @@ namespace Bus_Booking_System
                 timer1.Stop();
                 Application.Exit();
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

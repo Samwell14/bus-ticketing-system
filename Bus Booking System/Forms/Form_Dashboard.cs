@@ -1,16 +1,8 @@
 ﻿using Bus_Booking_System.Forms;
 using Bus_Booking_System.Forms.User_Controls;
-using Bus_Booking_System;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Bus_Booking_System
 {
@@ -27,11 +19,11 @@ namespace Bus_Booking_System
         {
             InitializeComponent();
             timer2Time.Start();
-           
+
             isCollapsed = false;
             PanelWidth = PanelLeft.Width;
-            
-            
+
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -41,10 +33,10 @@ namespace Bus_Booking_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MoveSidePanel(BookingDetailsButton);
+            //MoveSidePanel(BookingDetailsButton);
             Booking b = new Booking();
             AddControlstoPanel(b);
-    }
+        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -66,21 +58,21 @@ namespace Bus_Booking_System
                     b.Visible = false;
                 }
                 PanelLeft.Width = PanelLeft.Width + 10;
-                    if (PanelLeft.Width >= PanelWidth)
-                    {
-                        timer1.Stop();
-                        isCollapsed = false;
-                        this.Refresh();
+                if (PanelLeft.Width >= PanelWidth)
+                {
+                    timer1.Stop();
+                    isCollapsed = false;
+                    this.Refresh();
                     if (panelControls1.Controls.Count > 0 && panelControls1.Controls[0] is BusManagement)
                     {
                         BusManagement b = (BusManagement)panelControls1.Controls[0];
                         b.Visible = true;
                     }
                 }
-                }
-                else
-                {
-                if (panelControls1.Controls.Count>0 && panelControls1.Controls[0] is BusManagement)
+            }
+            else
+            {
+                if (panelControls1.Controls.Count > 0 && panelControls1.Controls[0] is BusManagement)
                 {
                     BusManagement b = (BusManagement)panelControls1.Controls[0];
                     b.Visible = false;
@@ -101,7 +93,7 @@ namespace Bus_Booking_System
 
                 }
             }
-            }
+        }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -142,7 +134,7 @@ namespace Bus_Booking_System
             AddControlstoPanel(c);
         }
 
-        
+
         private void timer2Time_Tick(object sender, EventArgs e)
         {
             DateTime dt = DateTime.Now;
@@ -153,13 +145,13 @@ namespace Bus_Booking_System
         {
             this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
             this.WindowState = FormWindowState.Maximized;
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-           
+
+
 
         }
 
@@ -168,8 +160,8 @@ namespace Bus_Booking_System
             MoveSidePanel(HelpInstrurctions);
             HelpInstruct g = new HelpInstruct();
             AddControlstoPanel(g);
-            
-            
+
+
 
         }
 

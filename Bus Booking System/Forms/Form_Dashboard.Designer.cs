@@ -43,10 +43,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.labelTime = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -201,7 +201,7 @@
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, -9);
+            this.button6.Location = new System.Drawing.Point(0, -5);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(40, 54);
             this.button6.TabIndex = 0;
@@ -233,11 +233,23 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.label4.Location = new System.Drawing.Point(66, 9);
+            this.label4.Location = new System.Drawing.Point(46, 5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(421, 37);
+            this.label4.Size = new System.Drawing.Size(300, 37);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Bus Booking System,Karachi";
+            this.label4.Text = "Bus Booking System";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(108, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 23);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "again";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel4
             // 
@@ -270,30 +282,18 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(112, 55);
+            this.label6.Location = new System.Drawing.Point(80, 55);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 23);
+            this.label6.Size = new System.Drawing.Size(51, 23);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Developer";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(149, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 23);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "again";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label6.Text = "User";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(56, 55);
+            this.label3.Location = new System.Drawing.Point(27, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 23);
             this.label3.TabIndex = 4;
@@ -306,9 +306,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(27, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 23);
+            this.label1.Size = new System.Drawing.Size(104, 23);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Welcome :";
+            this.label1.Text = "Welcome";
             // 
             // timer1
             // 

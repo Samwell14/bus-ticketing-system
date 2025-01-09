@@ -38,7 +38,6 @@ namespace Bus_Booking_System
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(REGISTERFINALFORM));
             this.label9 = new System.Windows.Forms.Label();
             this.RegistrationPasswordTextbox = new System.Windows.Forms.TextBox();
-            this.RegistrationGenderTextbox = new System.Windows.Forms.TextBox();
             this.RegistrationCityTextBox = new System.Windows.Forms.TextBox();
             this.RegistrationCNICTextbox = new System.Windows.Forms.TextBox();
             this.RegistrationFathersNameTextbox = new System.Windows.Forms.TextBox();
@@ -59,6 +58,7 @@ namespace Bus_Booking_System
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -73,9 +73,9 @@ namespace Bus_Booking_System
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label9.Location = new System.Drawing.Point(608, 341);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 23);
+            this.label9.Size = new System.Drawing.Size(158, 23);
             this.label9.TabIndex = 43;
-            this.label9.Text = "City";
+            this.label9.Text = "Residence City";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // RegistrationPasswordTextbox
@@ -88,16 +88,6 @@ namespace Bus_Booking_System
             this.RegistrationPasswordTextbox.TabIndex = 42;
             this.RegistrationPasswordTextbox.UseSystemPasswordChar = true;
             this.RegistrationPasswordTextbox.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
-            // 
-            // RegistrationGenderTextbox
-            // 
-            this.RegistrationGenderTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.RegistrationGenderTextbox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegistrationGenderTextbox.Location = new System.Drawing.Point(612, 429);
-            this.RegistrationGenderTextbox.Name = "RegistrationGenderTextbox";
-            this.RegistrationGenderTextbox.Size = new System.Drawing.Size(482, 37);
-            this.RegistrationGenderTextbox.TabIndex = 41;
-            this.RegistrationGenderTextbox.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // RegistrationCityTextBox
             // 
@@ -148,7 +138,7 @@ namespace Bus_Booking_System
             this.RegistrationSuccessfulbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RegistrationSuccessfulbutton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistrationSuccessfulbutton.ForeColor = System.Drawing.Color.White;
-            this.RegistrationSuccessfulbutton.Location = new System.Drawing.Point(432, 579);
+            this.RegistrationSuccessfulbutton.Location = new System.Drawing.Point(455, 582);
             this.RegistrationSuccessfulbutton.Name = "RegistrationSuccessfulbutton";
             this.RegistrationSuccessfulbutton.Size = new System.Drawing.Size(324, 52);
             this.RegistrationSuccessfulbutton.TabIndex = 36;
@@ -207,9 +197,9 @@ namespace Bus_Booking_System
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label2.Location = new System.Drawing.Point(97, 475);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 23);
+            this.label2.Size = new System.Drawing.Size(152, 23);
             this.label2.TabIndex = 32;
-            this.label2.Text = "CINIC";
+            this.label2.Text = "National ID No";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
@@ -235,9 +225,9 @@ namespace Bus_Booking_System
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(97, 341);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 23);
+            this.label1.Size = new System.Drawing.Size(112, 23);
             this.label1.TabIndex = 30;
-            this.label1.Text = "Name";
+            this.label1.Text = "First Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
@@ -262,7 +252,7 @@ namespace Bus_Booking_System
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 60);
+            this.panel1.Size = new System.Drawing.Size(1184, 90);
             this.panel1.TabIndex = 46;
             // 
             // button1
@@ -273,7 +263,7 @@ namespace Bus_Booking_System
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1040, 0);
+            this.button1.Location = new System.Drawing.Point(1040, 15);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 60);
             this.button1.TabIndex = 49;
@@ -285,7 +275,7 @@ namespace Bus_Booking_System
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(127, 16);
+            this.label8.Location = new System.Drawing.Point(143, 27);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(337, 37);
             this.label8.TabIndex = 12;
@@ -301,7 +291,7 @@ namespace Bus_Booking_System
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(1115, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(69, 60);
+            this.button2.Size = new System.Drawing.Size(69, 90);
             this.button2.TabIndex = 11;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -309,7 +299,7 @@ namespace Bus_Booking_System
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -10);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(121, 82);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -330,10 +320,10 @@ namespace Bus_Booking_System
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources._55592c2191f05_thumb900;
-            this.pictureBox2.Location = new System.Drawing.Point(538, 66);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(485, 88);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(271, 219);
+            this.pictureBox2.Size = new System.Drawing.Size(271, 188);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 48;
             this.pictureBox2.TabStop = false;
@@ -342,18 +332,30 @@ namespace Bus_Booking_System
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.comboBox1.Location = new System.Drawing.Point(612, 442);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(280, 24);
+            this.comboBox1.TabIndex = 49;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // REGISTERFINALFORM
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.RegistrationPasswordTextbox);
-            this.Controls.Add(this.RegistrationGenderTextbox);
             this.Controls.Add(this.RegistrationCityTextBox);
             this.Controls.Add(this.RegistrationCNICTextbox);
             this.Controls.Add(this.RegistrationFathersNameTextbox);
@@ -382,7 +384,6 @@ namespace Bus_Booking_System
 
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox RegistrationPasswordTextbox;
-        private System.Windows.Forms.TextBox RegistrationGenderTextbox;
         private System.Windows.Forms.TextBox RegistrationCityTextBox;
         private System.Windows.Forms.TextBox RegistrationCNICTextbox;
         private System.Windows.Forms.TextBox RegistrationFathersNameTextbox;
@@ -404,5 +405,6 @@ namespace Bus_Booking_System
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         public System.Windows.Forms.TextBox RegistrationNameTextbox;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

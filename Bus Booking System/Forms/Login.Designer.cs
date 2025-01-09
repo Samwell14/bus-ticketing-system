@@ -60,7 +60,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1200, 60);
+            this.panel1.Size = new System.Drawing.Size(1200, 92);
             this.panel1.TabIndex = 0;
             // 
             // button1
@@ -71,7 +71,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1074, 0);
+            this.button1.Location = new System.Drawing.Point(1074, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 60);
             this.button1.TabIndex = 50;
@@ -83,7 +83,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(124, 16);
+            this.label8.Location = new System.Drawing.Point(124, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(337, 37);
             this.label8.TabIndex = 12;
@@ -99,7 +99,7 @@
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(1133, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(67, 60);
+            this.button2.Size = new System.Drawing.Size(67, 92);
             this.button2.TabIndex = 11;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -107,7 +107,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -11);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(118, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,9 +122,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(324, 376);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 23);
+            this.label1.Size = new System.Drawing.Size(152, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "CNIC Number";
+            this.label1.Text = "National ID No";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
@@ -206,16 +206,16 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label6.Location = new System.Drawing.Point(12, 690);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(516, 23);
+            this.label6.Size = new System.Drawing.Size(199, 23);
             this.label6.TabIndex = 29;
-            this.label6.Text = "All Rights Reserved by Muhammad Salman Siddiqui.";
+            this.label6.Text = "All Rights Reserved.";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources.LOGO;
-            this.pictureBox2.Location = new System.Drawing.Point(544, 92);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(449, 87);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(271, 219);
+            this.pictureBox2.Size = new System.Drawing.Size(550, 204);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;

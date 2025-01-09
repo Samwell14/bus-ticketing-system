@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Bus_Booking_System.Forms.User_Controls
 {
@@ -17,9 +11,11 @@ namespace Bus_Booking_System.Forms.User_Controls
         {
             InitializeComponent();
         }
-        SqlConnection Sql = new SqlConnection(@"Data Source=HAIER-PC;Initial Catalog=BusBookingSystem;Integrated Security=True");
-        SqlDataAdapter apt = new SqlDataAdapter();
+
+        MySqlConnection Sql = new MySqlConnection("Server=localhost;Database=bus_booking_system;Uid=root;Pwd=Samii@122;");
+        MySqlDataAdapter apt = new MySqlDataAdapter();
         DataTable table = new DataTable();
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -37,33 +33,47 @@ namespace Bus_Booking_System.Forms.User_Controls
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-
-            if (Sql.State == ConnectionState.Closed)
+            try
             {
-                Sql.Open();
+                if (Sql.State == ConnectionState.Closed)
+                {
+                    Sql.Open();
+                }
+
+                MySqlCommand a = new MySqlCommand("Select * from Ticket where TicketNo = @TicketNo and CNIC = @CNIC", Sql);
+                a.Parameters.AddWithValue("@TicketNo", ChangeDesTicketNtextBox.Text);
+                a.Parameters.AddWithValue("@CNIC", ChangeDesCNICtextBox.Text);
+
+                table.Clear();
+                apt.SelectCommand = a;
+                apt.Fill(table);
+
+                if (table.Rows.Count == 0)
+                {
+                    ErrorCancellationForm E = new ErrorCancellationForm();
+                    E.ShowDialog();
+                }
+                else
+                {
+                    MySqlCommand s = new MySqlCommand("Update Ticket SET TravellingTo = @TravellingTo WHERE TicketNo = @TicketNo and CNIC = @CNIC", Sql);
+                    s.Parameters.AddWithValue("@TravellingTo", ChangeDesTravellingToComboBox.Text);
+                    s.Parameters.AddWithValue("@TicketNo", ChangeDesTicketNtextBox.Text);
+                    s.Parameters.AddWithValue("@CNIC", ChangeDesCNICtextBox.Text);
+                    s.ExecuteNonQuery();
+                    this.Close();
+                }
             }
-
-            SqlCommand a = new SqlCommand("Select * from Booking where TicketNo = " + "'" + ChangeDesTicketNtextBox.Text + "'" + " and CNIC = " + "'" + ChangeDesCNICtextBox.Text + "'", Sql);
-            table.Clear();
-            apt.SelectCommand = a;
-            apt.Fill(table);
-
-            if (table.Rows.Count == 0)
+            catch (MySqlException ex)
             {
-                ErrorCancellationForm E = new ErrorCancellationForm();
-                E.ShowDialog();
-
+                MessageBox.Show("An error occurred while updating the destination. Please try again later. Error: " + ex.Message);
             }
-
-            else
+            finally
             {
-                SqlCommand s = new SqlCommand("Update Booking SET TravellingTo= '" + ChangeDesTravellingToComboBox.Text + "'" + "WHERE TicketNo='" + ChangeDesTicketNtextBox.Text + "'" + "and CNIC='" + ChangeDesCNICtextBox.Text + "'", Sql);
-                s.ExecuteNonQuery();
-                this.Close();
-
+                if (Sql.State == ConnectionState.Open)
+                {
+                    Sql.Close();
+                }
             }
-            
         }
     }
 }

@@ -80,9 +80,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(12, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 15);
+            this.label1.Size = new System.Drawing.Size(265, 17);
             this.label1.TabIndex = 40;
-            this.label1.Text = "The Entered CNIC or TicketNo is incorrect!";
+            this.label1.Text = "The Entered ID or TicketNo is incorrect!";
             // 
             // button2
             // 
@@ -122,7 +122,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
     }
 }

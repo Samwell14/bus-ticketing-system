@@ -58,7 +58,7 @@
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(972, 0);
+            this.panel2.Location = new System.Drawing.Point(1309, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(10, 575);
             this.panel2.TabIndex = 1;
@@ -72,7 +72,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(10, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(962, 575);
+            this.panel3.Size = new System.Drawing.Size(1299, 575);
             this.panel3.TabIndex = 2;
             // 
             // panel7
@@ -82,7 +82,7 @@
             this.panel7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel7.Location = new System.Drawing.Point(0, 81);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(962, 484);
+            this.panel7.Size = new System.Drawing.Size(1299, 484);
             this.panel7.TabIndex = 4;
             // 
             // BusManagementdataGridView
@@ -102,7 +102,7 @@
             this.BusManagementdataGridView.RowHeadersWidth = 43;
             this.BusManagementdataGridView.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.BusManagementdataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.BusManagementdataGridView.Size = new System.Drawing.Size(962, 484);
+            this.BusManagementdataGridView.Size = new System.Drawing.Size(1299, 484);
             this.BusManagementdataGridView.TabIndex = 0;
             this.BusManagementdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BusManagementdataGridView_CellContentClick);
             // 
@@ -116,7 +116,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 10);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(962, 71);
+            this.panel6.Size = new System.Drawing.Size(1299, 71);
             this.panel6.TabIndex = 3;
             // 
             // textBox1
@@ -133,21 +133,22 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Name",
-            "CNIC"});
+            "National ID NO"});
             this.comboBox1.Location = new System.Drawing.Point(964, 22);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(145, 29);
+            this.comboBox1.Size = new System.Drawing.Size(145, 31);
             this.comboBox1.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(867, 25);
+            this.label1.Location = new System.Drawing.Point(830, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 21);
+            this.label1.Size = new System.Drawing.Size(114, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Search by:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -170,7 +171,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(962, 10);
+            this.panel5.Size = new System.Drawing.Size(1299, 10);
             this.panel5.TabIndex = 2;
             // 
             // panel4
@@ -178,7 +179,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 565);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(962, 10);
+            this.panel4.Size = new System.Drawing.Size(1299, 10);
             this.panel4.TabIndex = 1;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -192,7 +193,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.Name = "BusManagement";
-            this.Size = new System.Drawing.Size(982, 575);
+            this.Size = new System.Drawing.Size(1319, 575);
             this.Load += new System.EventHandler(this.BusManagement_Load);
             this.panel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);

@@ -82,7 +82,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(260, 15);
             this.label1.TabIndex = 41;
-            this.label1.Text = "The Entered Username or Password is incorrect!";
+            this.label1.Text = "The Entered ID or Password is incorrect!";
             // 
             // button2
             // 

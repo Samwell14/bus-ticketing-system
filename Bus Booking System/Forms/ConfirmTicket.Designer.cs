@@ -89,7 +89,7 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(184, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 25);
+            this.label1.Size = new System.Drawing.Size(258, 32);
             this.label1.TabIndex = 4;
             this.label1.Text = "Finalize Your Ticket";
             // 
@@ -106,9 +106,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(39, 161);
+            this.label4.Location = new System.Drawing.Point(18, 160);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(115, 19);
+            this.label4.Size = new System.Drawing.Size(144, 23);
             this.label4.TabIndex = 10;
             this.label4.Text = "Total Amount:";
             // 
@@ -116,9 +116,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(40, 209);
+            this.label5.Location = new System.Drawing.Point(18, 208);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 19);
+            this.label5.Size = new System.Drawing.Size(141, 23);
             this.label5.TabIndex = 12;
             this.label5.Text = "Paid Amount:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -140,9 +140,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(27, 256);
+            this.label6.Location = new System.Drawing.Point(16, 255);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 19);
+            this.label6.Size = new System.Drawing.Size(160, 23);
             this.label6.TabIndex = 15;
             this.label6.Text = "Return Amount:";
             // 
@@ -170,8 +170,8 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources.LOGO;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 10);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 10);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(140, 117);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

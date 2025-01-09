@@ -1,14 +1,6 @@
-﻿using Bus_Booking_System;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using MySql.Data.MySqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bus_Booking_System
@@ -27,7 +19,7 @@ namespace Bus_Booking_System
         {
 
         }
-        
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -60,13 +52,16 @@ namespace Bus_Booking_System
 
             if (isAuthenticated)
             {
-                MessageBox.Show("Login successful!");
+                SomethingMissing sth = new SomethingMissing();
+                sth.label1.Text = "Login Successful";
+                sth.ShowDialog();
                 new Form_Dashboard().ShowDialog();
                 // Proceed to the next form or main application window
             }
             else
             {
-                MessageBox.Show("Login failed. Invalid CNIC or password.");
+                new IncorrectNamePassword().ShowDialog();
+                //MessageBox.Show("Login failed. Invalid CNIC or password.");
             }
         }
 
@@ -106,9 +101,9 @@ namespace Bus_Booking_System
         {
             this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
             this.WindowState = FormWindowState.Maximized;
-            
 
-            
+
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -133,7 +128,7 @@ namespace Bus_Booking_System
                 this.Opacity -= 0.055;
             }
             else
-                {
+            {
                 timer1.Stop();
                 Application.Exit();
             }
@@ -152,5 +147,5 @@ namespace Bus_Booking_System
         }
     }
 }
-    
+
 

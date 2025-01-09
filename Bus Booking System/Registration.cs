@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bus_Booking_System
+﻿namespace Bus_Booking_System
 {
     class Registration
     {
-         string Name;
-         string FatherName;
-         decimal CNIC;
-         string Gender;
-         string Password;
-         string City;
+        string Name;
+        string FatherName;
+        decimal CNIC;
+        string Gender;
+        string Password;
+        string City;
         public Registration()
         {
             Name = "Salman";
@@ -38,7 +32,7 @@ namespace Bus_Booking_System
         public decimal Cnic { get { return CNIC; } set { CNIC = value; } }
         public string GENDER { get { return Gender; } set { Gender = value; } }
         public string PASSWORD { get { return Password; } set { Password = value; } }
-        public string CITY { get { return City; } set { City= value; } }
+        public string CITY { get { return City; } set { City = value; } }
 
 
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChangeDestination));
             this.ChangeDesCNICtextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -61,9 +62,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label3.Location = new System.Drawing.Point(27, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 19);
+            this.label3.Size = new System.Drawing.Size(152, 23);
             this.label3.TabIndex = 7;
-            this.label3.Text = "CNIC NO";
+            this.label3.Text = "National ID No";
             // 
             // label1
             // 
@@ -72,7 +73,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label1.Location = new System.Drawing.Point(170, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 28);
+            this.label1.Size = new System.Drawing.Size(303, 37);
             this.label1.TabIndex = 9;
             this.label1.Text = "Change Destination";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -85,7 +86,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label5.Location = new System.Drawing.Point(27, 295);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 19);
+            this.label5.Size = new System.Drawing.Size(128, 23);
             this.label5.TabIndex = 22;
             this.label5.Text = "Travelling To";
             // 
@@ -105,7 +106,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
             this.label4.Location = new System.Drawing.Point(26, 226);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 19);
+            this.label4.Size = new System.Drawing.Size(101, 23);
             this.label4.TabIndex = 24;
             this.label4.Text = "Ticket No";
             // 
@@ -173,10 +174,10 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Bus_Booking_System.Properties.Resources.LOGO;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 10);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(7, 10);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 117);
+            this.pictureBox2.Size = new System.Drawing.Size(148, 117);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 55;
             this.pictureBox2.TabStop = false;
@@ -187,19 +188,35 @@
             this.ChangeDesTravellingToComboBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangeDesTravellingToComboBox.FormattingEnabled = true;
             this.ChangeDesTravellingToComboBox.Items.AddRange(new object[] {
-            "Islamabad",
-            "Multan",
-            "Lahore",
-            "Sukkur",
-            "Hyderabad",
-            "Peshawar",
-            "Nawabshah",
-            "Larkana",
-            "Faisalabad",
-            "Thatta"});
+            "Haya Hulet",
+            "",
+            "Gulele",
+            "",
+            "Akaky Kaliti",
+            "",
+            "Bole",
+            "Lemi Kura",
+            "",
+            "Gobe",
+            "",
+            "Kera",
+            "",
+            "Alemgena",
+            "",
+            "Arada",
+            "",
+            "Ayer Tena",
+            "",
+            "Megenagna",
+            "",
+            "Kidane Meheret",
+            "",
+            "Senga Tera",
+            "",
+            "Bole"});
             this.ChangeDesTravellingToComboBox.Location = new System.Drawing.Point(31, 317);
             this.ChangeDesTravellingToComboBox.Name = "ChangeDesTravellingToComboBox";
-            this.ChangeDesTravellingToComboBox.Size = new System.Drawing.Size(404, 30);
+            this.ChangeDesTravellingToComboBox.Size = new System.Drawing.Size(404, 38);
             this.ChangeDesTravellingToComboBox.TabIndex = 57;
             // 
             // ChangeDestination
