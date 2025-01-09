@@ -83,6 +83,13 @@ namespace Bus_Booking_System
                 Confirmtotalamounttxt.Text = price.ToString();
             }
 
+            else if (r is string)
+            {
+                price = 25;
+                price *= Convert.ToInt32(seat);
+                Confirmtotalamounttxt.Text = price.ToString();
+            }
+
 
         }
 

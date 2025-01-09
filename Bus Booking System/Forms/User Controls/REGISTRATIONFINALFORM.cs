@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace Bus_Booking_System
@@ -55,31 +56,69 @@ namespace Bus_Booking_System
         {
             string name = RegistrationNameTextbox.Text;
             string fatherName = RegistrationFathersNameTextbox.Text;
-            //decimal cnic = decimal.Parse(RegistrationCNICTextbox.Text);
             string gender = comboBox1.SelectedItem.ToString();
             string password = RegistrationPasswordTextbox.Text;
             string city = RegistrationCityTextBox.Text;
-            decimal cnic;
+            decimal cnic = 0;
+            string pattern = @"^[a-zA-Z\s]+$";
 
-
-            if (!decimal.TryParse(RegistrationCNICTextbox.Text, out cnic))
+            try
             {
-                MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
-                return;
+
+                if ((string.IsNullOrEmpty(name) || string.IsNullOrEmpty(fatherName) || string.IsNullOrEmpty(gender) || string.IsNullOrEmpty(password)
+                   || string.IsNullOrEmpty(city) || string.IsNullOrEmpty(cnic.ToString())) || ((string.IsNullOrEmpty(name) && string.IsNullOrEmpty(fatherName) && string.IsNullOrEmpty(gender) && string.IsNullOrEmpty(cnic.ToString()) && string.IsNullOrEmpty(password)
+                   || string.IsNullOrEmpty(city))))
+                {
+                    MessageBox.Show("Please insert all neccesary fields!");
+                    return;
+                }
+
+
+                else if (!Regex.IsMatch(name, pattern) || !Regex.IsMatch(fatherName, pattern))
+                {
+                    MessageBox.Show("Please insert valid name or father name");
+                    return;
+                }
+
+                else if (!Regex.IsMatch(city, pattern))
+                {
+
+                    MessageBox.Show("Please insert valid city name");
+                    return;
+                }
+
+                if (!decimal.TryParse(RegistrationCNICTextbox.Text, out cnic))
+                {
+                    MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
+                    return;
+                }
+
             }
+
+            catch (NullReferenceException k)
+            {
+                MessageBox.Show("Please fill out all the Forms! " + k.Message);
+            }
+
+
 
             DatabaseHelper dbHelper = new DatabaseHelper();
             bool success = dbHelper.RegisterUser(name, fatherName, cnic, gender, password, city);
 
             if (success)
             {
-                MessageBox.Show("Registration successful!");
+                ErrorCancellationForm f = new ErrorCancellationForm();
+                f.label1.Text = "Registration successful!";
+                f.ShowDialog();
             }
             else
             {
-                MessageBox.Show("Registration failed. Please try again.");
+                ErrorCancellationForm f = new ErrorCancellationForm();
+                f.label1.Text = "Registration failed! Please try again";
+                f.ShowDialog();
             }
         }
+
 
         private void label7_Click(object sender, EventArgs e)
         {

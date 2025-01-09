@@ -41,7 +41,7 @@ namespace Bus_Booking_System
             decimal cnic;
             if (!decimal.TryParse(LoginUserNametextBox.Text, out cnic))
             {
-                MessageBox.Show("Invalid CNIC format. Please enter a valid CNIC number.");
+                MessageBox.Show("Invalid ID format. Please enter a valid ID number.");
                 return;
             }
 
