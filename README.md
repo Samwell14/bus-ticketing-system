@@ -9,12 +9,10 @@ On macOS or Linux, open Terminal.
 Navigate to the Directory Containing the .sql File:
 
 ## Use the cd command to change to the directory where your .sql file is located.
-sh
 cd path/to/your/file
 ## Log in to MySQL:
 
 Use the mysql command to log in to your MySQL server.
-sh
 mysql -u [username] -p
 Replace [username] with your MySQL username. You will be prompted to enter your password.
 Select the Database:
@@ -30,6 +28,5 @@ USE [database_name];
 
 Exit the MySQL prompt by typing exit or pressing Ctrl+D.
 Use the mysql command to import the .sql file into the selected database.
-sh
 mysql -u [username] -p [database_name] < [dump_file.sql]
 Replace [username] with your MySQL username, [database_name] with the name of your database, and [dump_file.sql] with the name of your .sql file.
